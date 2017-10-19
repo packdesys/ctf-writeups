@@ -75,7 +75,7 @@ Ksecret+007+11537.private  Ksecret+007+26883.private
 
 After spending a few hours googling "How to configure a BIND server with DNSSEC", I finally got a working setup.
 
-Put all the files located in subdirectory `text` in your system `/etc/bind` directory:
+Put all the files located in subdirectory `bind` in your system `/etc/bind` directory:
 
   * `db.otherside.earth.flux` : the zone file
   * `Ksecret+007+11537.key` : the KSK public part
