@@ -35,7 +35,7 @@ def correct_dnssec(nsaddr, domain):
             return False
 ```
 
-A `tcpdump` quickly reveals the domaine name for which the record is asked:
+A `tcpdump` quickly reveals the domain name for which the record is asked:
 
 ```
 12:08:32.978150 IP 149.13.33.84.39499 > XXXXXXXXXXXXXXX: 1749+ [1au] A? otherside.earth.flux. (49)
